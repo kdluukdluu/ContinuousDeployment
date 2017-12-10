@@ -17,7 +17,6 @@ namespace ContinuousWeb.Controllers
 
         public IActionResult About()
         {
-            //throw new NotImplementedException();
             ViewData["Message"] = "Your application description page.";
             return View();
 
